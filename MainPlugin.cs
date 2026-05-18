@@ -11,8 +11,8 @@ namespace s649_OsuiGet
     public static class PluginDatas
     {
         public const string GUID = "s649_OsuiGet";
-        public const string MOD_TITLE = "Osui Get";
-        public const string MOD_VERSION = "0.1.1.0";
+        public const string MOD_TITLE = "WQIP_WaterQualityImprovementProject";
+        public const string MOD_VERSION = "0.1.1.1";
     }
 
     [BepInPlugin(PluginDatas.GUID, PluginDatas.MOD_TITLE, PluginDatas.MOD_VERSION)]

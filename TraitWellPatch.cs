@@ -42,7 +42,8 @@ namespace s649_OsuiGet
                     if (EClass.player.CountKeyItem("well_wish") > 0)
                     {
                         EClass.player.ModKeyItem("well_wish", -1);
-                        ActEffect.Proc(EffectId.Wish, EClass.pc, null, 50 + EClass.player.CountKeyItem("well_enhance") * 50);
+                        //ActEffect.Proc(EffectId.Wish, EClass.pc, null, 50 + EClass.player.CountKeyItem("well_enhance") * 50);
+                        ActEffect.Proc(EffectId.Wish, EClass.pc, null, 50 + EClass.player.CountKeyItem("well_enhance") * 50 + EClass.player.flags.fishStolen * 50);
                         EClass.player.wellWished = true;
                     }
                     else
